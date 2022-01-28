@@ -49,6 +49,10 @@ textarea {
   padding: 10px;
 }
 
+textarea:hover {
+  border: 2px solid #add8e6;
+}
+
 /* Past */
 .past {
   background-color: #d3d3d3;
@@ -78,7 +82,10 @@ textarea {
   cursor: pointer;
 }
 
-.saveBtn i:hover {
-  font-size: 20px;
-  transition: all 0.3s ease-in-out;
+.saveBtn:hover {
+  opacity: 0.8;
+}
+
+.saveBtn:active {
+  opacity: 1;
 }
