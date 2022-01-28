@@ -31,7 +31,7 @@ var timesArray = [
 
 // Do every second
 setInterval(function () {
-    var currentHourAMPM = '12PM';              // variable for (current hour + AM/PM)
+    var currentHourAMPM = moment().format('hA');              // variable for (current hour + AM/PM)
     var currentHourIDX = timesArray.indexOf(currentHourAMPM); // current hour idx in timesArray
 
     // PAST
