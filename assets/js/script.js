@@ -73,5 +73,6 @@ $('.saveBtn').on("click", function () { // when user clicks save...
     eventsIDX = 0; // reset index 
 
     localStorage.setItem("events", JSON.stringify(eventsArray)); // store events in Local Storage
+    alert("Saved!"); // popup 'saved' message
 });
 
