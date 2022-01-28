@@ -4,15 +4,7 @@ body {
   line-height: 1;
 }
 
-textarea {
-  background: transparent;
-  border: none;
-  resize: none;
-  color: #000000;
-  border-left: 1px solid black;
-  padding: 10px;
-}
-
+/* Jumbotron */
 .jumbotron {
   text-align: center;
   background-color: transparent;
@@ -47,11 +39,14 @@ textarea {
 }
 
 /* Time Block */
-.col-10{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: red;
+textarea {
+  vertical-align: center; /* NOT WORKING */
+  text-align: center;
+  background: transparent;
+  resize: none;
+  color: #000000;
+  border-left: 1px solid black;
+  padding: 10px;
 }
 
 /* Past */
